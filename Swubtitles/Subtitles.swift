@@ -72,7 +72,7 @@ public class Subtitles: NSObject {
                     throw ParseSubtitleError.InvalidFormat
                 }
                 
-                textLines.append(textResult as! String)
+                textLines.append(textResult! as String)
             }
             
             guard indexScanSuccess && startTimeScanResult && dividerScanSuccess && endTimeScanResult else {
