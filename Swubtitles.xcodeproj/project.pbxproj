@@ -41,6 +41,7 @@
 		859F85E11E1A21A8009014FA /* 10-subs-format-mistakes.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "10-subs-format-mistakes.srt"; path = "Subtitle files/10-subs-format-mistakes.srt"; sourceTree = "<group>"; };
 		859F85E21E1A21A8009014FA /* 10-subs-some-double.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "10-subs-some-double.srt"; path = "Subtitle files/10-subs-some-double.srt"; sourceTree = "<group>"; };
 		859F85E31E1A21A8009014FA /* 10-subs.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "10-subs.srt"; path = "Subtitle files/10-subs.srt"; sourceTree = "<group>"; };
+		C1905C4625BEB46C00C96915 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		854285071E16AF96007CBE9B = {
 			isa = PBXGroup;
 			children = (
+				C1905C4625BEB46C00C96915 /* Package.swift */,
 				854285131E16AF96007CBE9B /* Swubtitles */,
 				8542851E1E16AF96007CBE9B /* SwubtitlesTests */,
 				854285121E16AF96007CBE9B /* Products */,

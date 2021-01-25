@@ -3,17 +3,18 @@
 import PackageDescription
 
 let package = Package(
-  name: "swubtitles",
+  name: "Swubtitles",
   platforms: [
     .iOS(.v8),
     .macOS(.v10_13)
   ],
   products: [
-    .library(name: "swubtitles", targets: ["Fuse"]),
+    .library(name: "Swubtitles", targets: ["Swubtitles"]),
   ],
   targets: [
-    .target(name: "Fuse", path: "Fuse")
+    .target(name: "Swubtitles", path: "Swubtitles")
   ],
   swiftLanguageVersions: [
     .v5
   ]
+)
