@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8542851B1E16AF96007CBE9B /* Swubtitles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854285111E16AF96007CBE9B /* Swubtitles.framework */; };
 		854285201E16AF96007CBE9B /* SwubtitlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8542851F1E16AF96007CBE9B /* SwubtitlesTests.swift */; };
-		854285221E16AF96007CBE9B /* Swubtitles.h in Headers */ = {isa = PBXBuildFile; fileRef = 854285141E16AF96007CBE9B /* Swubtitles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8542854A1E16AFDF007CBE9B /* Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854285491E16AFDF007CBE9B /* Subtitles.swift */; };
 		8542855A1E16B16F007CBE9B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854285591E16B16F007CBE9B /* Title.swift */; };
 		859F85DF1E193934009014FA /* OpenSubtitlesHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859F85DE1E193934009014FA /* OpenSubtitlesHash.swift */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		854285111E16AF96007CBE9B /* Swubtitles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swubtitles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		854285141E16AF96007CBE9B /* Swubtitles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swubtitles.h; sourceTree = "<group>"; };
 		854285151E16AF96007CBE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8542851A1E16AF96007CBE9B /* SwubtitlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwubtitlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8542851F1E16AF96007CBE9B /* SwubtitlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwubtitlesTests.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 		854285131E16AF96007CBE9B /* Swubtitles */ = {
 			isa = PBXGroup;
 			children = (
-				854285141E16AF96007CBE9B /* Swubtitles.h */,
 				854285151E16AF96007CBE9B /* Info.plist */,
 				854285491E16AFDF007CBE9B /* Subtitles.swift */,
 				854285591E16B16F007CBE9B /* Title.swift */,
@@ -121,7 +118,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854285221E16AF96007CBE9B /* Swubtitles.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

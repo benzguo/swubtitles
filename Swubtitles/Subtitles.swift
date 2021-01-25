@@ -6,7 +6,6 @@
 //  Copyright © 2016 Klurig. All rights reserved.
 //
 
-import UIKit
 import Foundation
 
 public enum ParseSubtitleError: Error {

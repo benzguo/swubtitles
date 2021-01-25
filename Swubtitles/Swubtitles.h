@@ -6,8 +6,6 @@
 //  Copyright © 2016 Klurig. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for Swubtitles.
 FOUNDATION_EXPORT double SwubtitlesVersionNumber;
 
